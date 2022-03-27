@@ -12,21 +12,23 @@
             if(a<b){
                 answer = a;
             }
-            else if(b<a) {
+            else {
                 answer = b;
             }
-            else if(c<answer) {
+
+            if(c<answer) {
                 answer = c;
             }
-            else {
-
-            }
-
 
             return answer;
 
-            console.log(solution(2,5,1));
+
         }
+
+        alert("Answer is: " + solution(2,5,1));
+
+        console.log(solution(2,5,1));
+
     </script>
 </body>
 </html>
