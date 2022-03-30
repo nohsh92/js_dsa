@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Find Letter</title>
+</head>
+<body>
+<script>
+function solution(inputString, identifier){
+    let answer = 0;
+        // let arrayOfString = inputString.split('')
+        // for(let element of arrayOfString){
+        //     if(element === 'R'){
+        //         answer += 1;
+        //     }
+        // }
+    answer = inputString.indexOf(identifier);
+
+
+
+    return answer
+}
+
+let pI1 = 'COMPUTERPROGRAMMING'
+let pI2 = 'x'
+
+
+alert("Answer is: " + solution(pI1, pI2));
+
+console.log(solution(pI1, pI2));
+</script>
+</body>
+</html>
